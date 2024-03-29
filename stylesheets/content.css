@@ -1,0 +1,1099 @@
+* {
+  box-sizing: border-box;
+  cursor: url(../assets/icons/cursor.png), pointer;
+}
+@import url("https://fonts.cdnfonts.com/css/pp-neue-montreal");
+html,
+body {
+  background-color: black;
+}
+
+p {
+  font-family: "PP Neue Montreal", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.back-line {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  bottom: 2vh;
+  left: 1vw;
+}
+
+button,
+button:active,
+button:focus {
+  border: none;
+}
+.sectionfirst {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.sectionsecond {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 216) 17.492%,
+    rgb(222, 233, 251) 127.981%,
+    rgba(248, 251, 255, 0) 127.994%
+  );
+}
+.sectionthird {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 216) 17.492%,
+    rgb(222, 233, 251) 127.981%,
+    rgba(248, 251, 255, 0) 127.994%
+  );
+}
+
+.sectionfourth {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 216) 17.492%,
+    rgb(222, 233, 251) 127.981%,
+    rgba(248, 251, 255, 0) 127.994%
+  );
+}
+
+.sectionfifth {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 216) 17.492%,
+    rgb(222, 233, 251) 127.981%,
+    rgba(248, 251, 255, 0) 127.994%
+  );
+}
+.background {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* .newstory {
+  position: fixed;
+  top: 200px;
+  left: 0;
+  height: 300px;
+  width: 100%;
+  background: url("https://images.theconversation.com/files/283650/original/file-20190711-173325-1oj4n2t.jpg")
+    center;
+  background-size: cover;
+} */
+
+.sectionblock {
+  display: block;
+  width: 100%;
+}
+
+.sectionnone {
+  display: none;
+}
+
+.button_to_sectionsecond {
+  position: absolute;
+  margin: auto;
+  margin-top: 35vh;
+  color: rgb(255, 255, 255);
+  font-family: PP Neue Montreal;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 100%;
+  background: none;
+  min-width: 919px;
+}
+
+.gradient-circle {
+  margin: auto;
+  width: 309px;
+  height: 309px;
+
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 216) 17.492%,
+    rgb(222, 233, 251) 127.981%,
+    rgba(248, 251, 255, 0) 127.994%
+  );
+  border-radius: 220px;
+  margin-top: 30vh;
+  transition: 2s ease-out;
+}
+
+.gradient-circle:hover {
+  transform: scale(6);
+  filter: blur(10px);
+}
+
+.button_to_sectionsecond:hover {
+  filter: blur(2px);
+}
+
+.logo-text {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-family: PP Neue Montreal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 38px;
+  left: 1vw;
+  top: 0.2vh;
+}
+
+.button_to_sectionthird {
+  padding: 55px 17px;
+  position: absolute;
+  left: 10vw;
+  top: 13vh;
+  color: rgb(255, 255, 255);
+  font-family: PP Neue Montreal;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 77px;
+  background-image: url(../assets/icons/bloop\ buble.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 1s ease-in-out;
+}
+
+.button_to_sectionthird:hover {
+  transform: scale(1.2);
+}
+
+.button_to_sectionfourth {
+  padding: 70px 51px;
+  position: absolute;
+  left: 32vw;
+  top: 46vh;
+  color: rgb(255, 255, 255);
+  font-family: PP Neue Montreal;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 77px;
+  background-image: url(../assets/icons/bloop\ buble.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 1s ease-in-out;
+}
+
+.button_to_sectionfourth:hover {
+  transform: scale(1.2);
+}
+
+.button_to_sectionfifth {
+  padding: 94px 30px;
+  position: absolute;
+  left: 60vw;
+  top: 15vh;
+  color: rgb(255, 255, 255);
+  font-family: PP Neue Montreal;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 77px;
+  background-image: url(../assets/icons/bloop\ buble.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 1s ease-in-out;
+}
+
+.button_to_sectionfifth:hover {
+  transform: scale(1.1);
+}
+
+.first_bubble {
+  position: absolute;
+  background-image: url(../assets/icons/НОТА3.svg);
+  background-size: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 54px;
+  top: 12vh;
+  left: 10vh;
+  filter: blur(2px);
+  animation: first_bubble 4s ease-in-out infinite;
+  animation-direction: alternate;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes first_bubble {
+  0% {
+    top: 8vh;
+    left: 5vw;
+  }
+  100% {
+    top: 10vh;
+    left: 4vw;
+    filter: blur(3px);
+  }
+}
+
+.second_bubble {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 42vh;
+  left: 7vh;
+  filter: blur(3px);
+  animation: second_bubble 4s ease-in-out infinite;
+  animation-direction: alternate;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes second_bubble {
+  0% {
+    top: 48vh;
+    left: 4vw;
+    filter: blur(6px);
+  }
+  100% {
+    top: 51vh;
+    left: 6vw;
+  }
+}
+
+.third_bubble {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 72vh;
+  left: 22vw;
+  filter: blur(2px);
+  animation: third_bubble 4s ease-in-out infinite;
+  animation-direction: alternate;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes third_bubble {
+  0% {
+    top: 74vh;
+    left: 28vw;
+  }
+  100% {
+    top: 79vh;
+    left: 26vw;
+    filter: blur(5px);
+  }
+}
+
+.fourth_bubble {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  top: 64vh;
+  left: 56vw;
+  filter: blur(2px);
+  animation: fourth_bubble 5s ease-in-out infinite;
+  animation-direction: alternate;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes fourth_bubble {
+  0% {
+    top: 64vh;
+    left: 56vw;
+  }
+  100% {
+    top: 60vh;
+    left: 55vw;
+    filter: blur(5px);
+  }
+}
+
+.fifth_bubble {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 33vh;
+  left: 27vw;
+  filter: blur(2px);
+  animation: fifth_bubble 2s ease-in-out infinite;
+  animation-direction: alternate;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes fifth_bubble {
+  0% {
+    top: 33vh;
+  }
+  100% {
+    top: 36vh;
+    filter: blur(5px);
+  }
+}
+
+.sixth_bubble {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  top: 5vh;
+  left: 42vw;
+  filter: blur(4px);
+  animation: sixth_bubble 4s ease-in-out infinite;
+  animation-direction: alternate;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes sixth_bubble {
+  0% {
+    top: 5vh;
+  }
+  100% {
+    top: 7vh;
+    left: 43vw;
+    filter: blur(6px);
+  }
+}
+
+.seventh_bubble {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 12vh;
+  left: 84vw;
+  filter: blur(3px);
+  animation: seventh_bubble 3s ease-in-out infinite;
+  animation-direction: alternate;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes seventh_bubble {
+  0% {
+    top: 10vh;
+  }
+  100% {
+    top: 13vh;
+    left: 86vw;
+    filter: blur(5px);
+  }
+}
+
+.eighth_bubble {
+  position: absolute;
+  background-image: url(../assets/icons/НОТА2.svg);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  background-position: center;
+  width: 84px;
+  height: 84px;
+  top: 73vh;
+  left: 85vw;
+  filter: blur(3px);
+  animation: eighth_bubble 3s ease-in-out infinite;
+  animation-direction: alternate;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes eighth_bubble {
+  0% {
+    top: 73vh;
+  }
+  100% {
+    top: 69vh;
+    left: 86vw;
+    filter: blur(5px);
+    transform: scale(1.1);
+  }
+}
+
+.ninth_bubble {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 50vh;
+  left: 83vw;
+  filter: blur(2px);
+  animation: ninth_bubble 5s ease-in-out infinite;
+  animation-direction: alternate;
+  transition: all 2s ease-in-out;
+}
+
+@keyframes ninth_bubble {
+  0% {
+    top: 50vh;
+  }
+  100% {
+    top: 48vh;
+    left: 80vw;
+    filter: blur(3px);
+  }
+}
+
+.tenth_bubble {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  bottom: 10vh;
+  left: 71vw;
+  filter: blur(2px);
+  animation: tenth_bubble 4s ease-in-out infinite;
+  animation-direction: alternate;
+  transition: all 2s ease-in-out;
+}
+
+@keyframes tenth_bubble {
+  0% {
+    bottom: 5vh;
+  }
+  100% {
+    bottom: 7vh;
+    left: 72vw;
+    filter: blur(3px);
+  }
+}
+
+.eleventh_bubble {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  bottom: 10vh;
+  left: 5vw;
+  filter: blur(1px);
+  animation: eleventh_bubble 4s ease-in-out infinite;
+  animation-direction: alternate;
+  transition: all 2s ease-in-out;
+}
+@keyframes eleventh_bubble {
+  0% {
+    bottom: 10vh;
+  }
+  100% {
+    transform: scale(1.2);
+    bottom: 9vh;
+    left: 9vw;
+    filter: blur(2px);
+  }
+}
+
+.my_name {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.233);
+  font-family: PP Neue Montreal;
+  font-size: 20px;
+  font-weight: 400;
+  bottom: 2vh;
+  left: 1vw;
+}
+
+.my_group {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.233);
+  font-family: PP Neue Montreal;
+  font-size: 20px;
+  font-weight: 400;
+  bottom: 2vh;
+  right: 1vw;
+}
+
+.hint {
+  position: absolute;
+  right: 1vw;
+  top: 2vh;
+  width: 6vw;
+  height: 6vh;
+}
+
+.hint_text_secondsection {
+  padding: 40px 30px;
+  position: absolute;
+  color: rgb(24, 24, 197);
+  font-family: PP Neue Montreal;
+  font-size: 20px;
+  font-weight: 400;
+  background-image: url(../assets/icons/hint_window.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 8vh;
+  right: 4vw;
+}
+
+.first_click_bubble {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 1vw;
+  top: 4vh;
+}
+.second_click_bubble {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 4vw;
+  top: 12vh;
+}
+.third_click_bubble {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 3vw;
+  top: 22vh;
+}
+.fourth_click_bubble {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 6vw;
+  top: 25vh;
+}
+.fourth_click_fish {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 6vw;
+  top: 25vh;
+}
+
+.little_fish {
+  background-image: url(../assets/icons/little_secret_fish.svg);
+  background-size: 5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.congrats_alert {
+  border-radius: 40px;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  color: #1818c5;
+  width: 20vw;
+  padding: 30px;
+  left: 40vw;
+  top: 40vh;
+}
+
+.cancel {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #1818c5;
+  border-radius: 150px;
+  right: -1.5vw;
+  top: -1.5vh;
+  background-image: url(../assets/icons/cancel.svg);
+  background-size: 2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fifth_click_bubble {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 0.3vw;
+  top: 15vh;
+}
+
+.sixth_click_bubble {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 1vw;
+  bottom: 10vh;
+}
+.seventh_click_bubble {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 0.6vw;
+  bottom: 21.5vh;
+}
+.eighth_click_bubble {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 4vw;
+  bottom: 3vh;
+}
+.ninth_click_bubble {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 0.8vw;
+  bottom: 6vh;
+}
+.tenth_click_bubble {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 8vw;
+  bottom: 11vh;
+}
+.eleventh_click_bubble {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 9vw;
+  bottom: 3vh;
+}
+.twelfth_click_bubble {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 5vw;
+  top: 3vh;
+}
+.thirteenth_click_bubble {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 7vw;
+  top: 5vh;
+}
+.fourteenth_click_bubble {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 10vw;
+  top: 11vh;
+}
+.fifteenth_click_bubble {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 11vw;
+  top: 2vh;
+}
+.sixteenth_click_bubble {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 8vw;
+  top: 1vh;
+}
+.seventeenth_click_bubble {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  left: 16vw;
+  top: 1vh;
+}
+.eighthteenth_click_bubble {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: 16vw;
+  top: 13vh;
+}
+.nineteenth_click_bubble {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 10vw;
+  top: 22vh;
+}
+.twentieth_click_bubble {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 12vw;
+  top: 27vh;
+}
+.twentyfirst_click_bubble {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 14vw;
+  top: 22vh;
+}
+.twentysecond_click_bubble {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 25vw;
+  top: 22vh;
+}
+.twentythird_click_bubble {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 22vw;
+  top: 22vh;
+}
+.twentyfourth_click_bubble {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 20vw;
+  top: 27vh;
+}
+.twentyfifth_click_bubble {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: 27vw;
+  top: 27vh;
+}
+
+.twentysixth_click_bubble {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 28vw;
+  bottom: 4vh;
+}
+.twentyseventh_click_bubble {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  left: 22vw;
+  bottom: 7vh;
+}
+.twentyeighth_click_bubble {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: 18.5vw;
+  bottom: 2vh;
+}
+.twentynineth_click_bubble {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 24vw;
+  bottom: 1vh;
+}
+.thirty_click_bubble {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 33vw;
+  bottom: 10vh;
+}
+.thirtyone_click_bubble {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 31vw;
+  bottom: 18vh;
+}
+.thirtytwo_click_bubble {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  left: 23vw;
+  bottom: 30vh;
+}
+.thirtythree_click_bubble {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  right: 2vw;
+  bottom: 4vh;
+}
+.thirtyfour_click_bubble {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  right: 2vw;
+  top: 4vh;
+}
+.thirtyfive_click_bubble {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  right: 12vw;
+  top: 3vh;
+}
+.thirtysix_click_bubble {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  right: 12vw;
+  bottom: 3vh;
+}
+.thirtyseven_click_bubble {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  right: 15vw;
+  bottom: 1vh;
+}
+.thirtyeighth_click_bubble {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: 0.5vw;
+  bottom: 21vh;
+}
+
+.hide {
+  display: none;
+}
+
+.opposite_hide {
+  display: block;
+}
+
+.show-tablet {
+  animation: show-tablet 2s linear;
+}
+@keyframes show-tablet {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.seaweed {
+  /* background-color: antiquewhite; */
+  width: 30vw;
+  height: 50vh;
+  bottom: 5vh;
+  left: 0;
+  position: absolute;
+  background-image: url(../assets/icons/seaweed_left.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.seaweed_with_headphones {
+  /* background-color: antiquewhite; */
+  width: 30vw;
+  height: 50vh;
+  bottom: 5vh;
+  left: 0;
+  position: absolute;
+  background-image: url(../assets/icons/seaweed_headphones.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cola {
+  /* background-color: antiquewhite; */
+  width: 30vw;
+  height: 27vh;
+  bottom: 5vh;
+  left: 25vw;
+  position: absolute;
+  background-image: url(../assets/icons/cola.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fish_cola {
+  /* background-color: antiquewhite; */
+  width: 30vw;
+  height: 28vh;
+  bottom: 4vh;
+  left: 25vw;
+  position: absolute;
+  background-image: url(../assets/icons/fish_cola.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.shell {
+  /* background-color: antiquewhite; */
+  width: 23vw;
+  height: 26vh;
+  bottom: 10vh;
+  left: 53vw;
+  position: absolute;
+  background-image: url(../assets/icons/shell.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.shell_clock {
+  /* background-color: antiquewhite; */
+  width: 23vw;
+  height: 26.5vh;
+  bottom: 10.2vh;
+  left: 53vw;
+  position: absolute;
+  background-image: url(../assets/icons/shell_alarm.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.plant {
+  /* background-color: antiquewhite; */
+  width: 30vw;
+  height: 70vh;
+  bottom: 10.2vh;
+  right: 0;
+  position: absolute;
+  background-image: url(../assets/icons/seaweed_right.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.plant_phone {
+  /* background-color: antiquewhite; */
+  width: 30vw;
+  height: 67vh;
+  bottom: 9.4vh;
+  right: 1vw;
+  position: absolute;
+  background-image: url(../assets/icons/seaweed_right_with_phone.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.locator {
+  /* background-image: url(../assets/icons/locator.svg); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 70vw;
+  height: 100vh;
+  /* background-color: rgb(0, 255, 255); */
+  position: relative;
+  margin: auto;
+}
+
+.main_locator {
+  left: 5.1vw;
+  /* background-color: black; */
+  position: absolute;
+  bottom: 0;
+  max-width: 70vw;
+  width: 60vw;
+  height: 90vh;
+}
+
+.cube-rows {
+  position: absolute;
+  /* background-color: crimson; */
+  width: 42vw;
+  height: 60vh;
+  left: 10.4vw;
+  top: 24vh;
+  gap: 18px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+}
+
+.first_cube_row {
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cube {
+  width: 89px;
+  height: 11vh;
+  border: 5px solid white;
+}
+
+.bluee {
+  width: 89px;
+  height: 11vh;
+  border: 5px solid white;
+  background-color: #00108c;
+}
+.violet {
+  width: 89px;
+  height: 11vh;
+  border: 5px solid white;
+  background-color: #6f1866;
+}
+.red {
+  width: 89px;
+  height: 11vh;
+  border: 5px solid white;
+  background-color: #9e1025;
+}
+.orange {
+  width: 89px;
+  height: 11vh;
+  border: 5px solid white;
+  background-color: #d64c00;
+}
+.light {
+  width: 89px;
+  height: 11vh;
+  border: 5px solid white;
+  background-color: #ef6e00;
+}
+.yellow {
+  width: 89px;
+  height: 11vh;
+  border: 5px solid white;
+  background-color: #f3cb2c;
+}
+.black {
+  width: 89px;
+  height: 11vh;
+  border: 5px solid white;
+  background-color: #000000;
+}
+
+.off_button {
+  bottom: 15vh;
+  right: 10vw;
+  background-image: url(../assets/icons/opacity_button.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  animation: button_waiting 2s ease-in-out infinite;
+
+  animation-direction: alternate;
+  transition: all 1s ease-in-out;
+}
+.on_button {
+  bottom: 15vh;
+  right: 10vw;
+  background-image: url(../assets/icons/fill_button.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  animation: button_waiting 2s ease-in-out infinite;
+
+  animation-direction: alternate;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes button_waiting {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
